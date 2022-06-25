@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Douglas Kiprono">
+    <meta name="description" content="Douglas Kiprono, a web Developer, Graphic designer and a freelancer">
+    <title>Douglas Rono Porfolio</title>
+    <!-- favicons -->
+     <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <meta content="Full stack developer, Graphic designer and data engineer" name="description">
+    <meta content="software developer, php senior developer, freelancer" name="keywords">
+
+    <!-- css files-->
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+
+.scroll-Up {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 1.2rem;
+  bottom: 1.2rem;
+  z-index: 996;
+  background: #07ae07;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.scroll-Up i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+.scroll-Up:hover {
+  background: #6bc1e9;
+  color: #fff;
+}
+.scroll-Up.active {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+    <header class="fixed-top">
+      <div class="container-fluid">
+        <nav id="navbar" class="navbar navbar-expand-md">
+            <a href="index.html" class="navbar-brand text-light">DOUGLAS RONO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="text-dark bi bi-list ms-auto"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" title="home" href="index.html"><i class="bi bi-house-fill"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" title="About-me" href="#about"> <i class="bi bi-info-square"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" title="My Skills" href="#skills"> <i class="bi bi-laptop-fill"></i> </a></li>
+                    <li class="nav-item"><a class="nav-link" title="Portfolio" href="#portfolio"><i class="bi bi-file-code"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" title="Contact" href="#contact"><i class="bi bi-telephone"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <div class="github"><a href="https://www.github.com/itsdaglas" title="Github link" target="_blank"><i class="bi bi-github"></i></a></div>
+    <!-- main -->
+    <main>
+
+  <section id="showcase" class="d-flex align-items-center">
+      <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center text-center main-content" data-aos="fade-up" data-aos-delay="200">
+            <p class="lead text-light">HELLO THERE!</p>
+            <p class="display-3">I am a Web Developer, Graphic Designer and a Freelancer. </p>
+            <a href="#about"><button type="button" id="about" class="btn btn-primary mt-3">More About..</button></a>
+         
+
+        </div>
+
+        <div class="col-lg-6 main-img" data-aos="zoom-in" data-aos-delay="200">
+
+          <img src="img/hero-img.png" class="animated main-img" alt="">
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+        
+        <hr>
+        <!-- about me -->
+
+        <section id="about">
+            <div class="container text-center mt-5">
+               
+                <div class="box">
+                     
+                         <h3> <i class="bi bi-person-circle"></i> <br> Who am I  </h3>
+                       <p>
+                          <span>Hello!</span> I am a professional Web Developer, Graphic Designer and Freelancer based in Nairobi, Kenya. I have 4+ years of excellent experience working on simple to complex(B2B & B2C) projects for several clients both as a freelancer and 
+                           as a full-time employee. I thrive on delivering solution-focused remedies for all of your web problems.
+                      </p>
+                    
+                </div>
+                <div class="box">
+
+                <p>
+                    <h4 class="text-center"> <i class="bi bi-code-slash"></i> <br> As a Web Developer</h4>
+                        I'm proficient enough in design, development and implementation of  E-commerce stores, ERP systems,Real Estate,Personal blogs and mobile-first websites.
+                        I provide high quality code with fully responsive design for mobile, tablet and desktop. I will also offer unlimited revisions till 100% satisfaction.
+                        
+                </p>
+                </div>
+
+                <div class="box">
+                    <p>
+                    <h4><i class="bi bi-camera-reels"></i><br> As a Graphic Designer</h4>
+                    I design website graphics, promotional material and social media pages that are consistent with brand identity. My focus is to keep images fresh and effective and ensure that images
+                    are correctly formatted and optimized for mobile and desktop web browsers.I value interactive content, powerful design model, and creative materials.
+                </p>
+                </div>
+            </div>
+
+        </section>
+        <!-- skills -->
+        <section id="skills">
+            <div class="container skills text-center">
+                <div class="box">
+                    <h3><i class="bi bi-folder"></i> <br> Skills and Expertise</h3>
+                <p class="lead">
+                    Here are the technologies and tools that I’ve been working with recently: 
+                </p>
+                </div>
+                <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box" data-aos="zoom-out">
+                         <h4>Frontend</h4>
+                        <ul>
+                            <li>HTML 5</li>
+                            <li>CSS3</li>
+                            <li>JAVASCRIPT</li>
+                            <li>BOOTSTRAP</li>
+                        </ul>
+                     </div>
+
+                       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box" data-aos="zoom-out">
+                           <h4>Backend</h4>
+                        <ul>
+                            <li>PHP</li>
+                            <li>mySQL</li>
+                            <li>LARAVEL</li>
+                        </ul>
+                     </div>
+
+                       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 box" data-aos="zoom-out">
+                           <h4>Software</h4>
+                        <ul>
+                            <li>Python</li>
+                            <li>JAVA</li>
+                            <li>KOTLIN</li>
+                        </ul>
+                     </div>
+
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box" data-aos="zoom-out">
+                           <h4>Tools & technologies</h4>
+                        <ul>
+                            <li>Git</li>
+                            <li>Linux- terminal</li>
+                            <li>Stackoverflow</li>
+                        </ul>
+                     </div>
+
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box" data-aos="zoom-out">
+                           <h4>Graphic Design Tools</h4>
+                        <ul>
+                            <li>Adobe photoshop</li>
+                            <li>Adobe Illustrator</li>
+                            <li>Canva</li>
+                        </ul>
+                     </div>
+                </div>    
+                 
+        
+            </div>
+        </section>
+        <!-- portfolio -->
+        <section id="portfolio">
+            <div class="container text-center">
+                <h1>My Recent Work</h1>
+                <p>Here are a few design projects I've worked on recently. Want to see more? Feel free to take a look at my latest projects on <a title="github link" class="repo-link" href="https://www.github.com/itsdaglas" target="_blank">Github</a>.</p>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="nav nav-tabs d-flex justify-content-center">
+                            <li class="nav-item m-1">
+                                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Diagram Automation </a>
+                            </li>
+                            <li class="nav-item m-1">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Food ordering system</a>
+                            </li>
+                            <li class="nav-item m-1">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Drag and Drop</a>
+                            </li>
+                            <li class="nav-item m-1">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Admin Dashboard</a>
+                            </li>
+                            <li class="nav-item m-1">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">School management System</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 mt-4">
+                        
+                        <div class="tab-content">
+                            <!-- project 1 -->
+                            <div class="tab-pane active show" id="tab-1">
+                                <h3>Flowchart automation</h3>
+                                <img src="img/flow-automation.png" alt="" class="img-fluid">
+                                <p class="fst-italic">This project is for automating flowchart processes. It is implemented through  drag and drop</p>
+                                <p>The project can be embeded into mind mapping Software systems or file uploading.</p>
+                            </div>
+                            <!-- project 2 -->
+                            <div class="tab-pane" id="tab-2">
+                                <img src="img/foodordering.png" alt="" class="img-fluid">
+                                <h3>Food ordering system </h3>  
+                            </div>
+                            <!-- project 3 -->
+                            <div class="tab-pane" id="tab-3">
+                                <h3>Chrome extension</h3>
+                                <img src="img/drag_drop.png" alt="" class="img-fluid">
+                            </div>
+                            <!-- project 4 -->
+                            <div class="tab-pane" id="tab-4">
+                                <h3>Admin Dashboard</h3>
+                                <img src="img/index1.png" alt="" class="img-fluid">
+                            </div>
+                            <!-- project 5 -->
+                            <div class="tab-pane" id="tab-5">
+                                <h3>School management system</h3>
+                                <img src="img/bg.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <!-- tab end -->
+                    </div>
+            </div>
+            </div>
+
+        </section>
+        <!-- contact -->
+        <section id="contact" class="mt-3">
+            <hr>
+            <div class="container text-center contact">
+                <h2>CONTACT-ME</h2>
+                <p class="lead text-warning"> Say Hello,Feel free to contact me. </p>
+                    <ul class="p-4" id="contact-detail">
+                        <li>
+                            <i class="bi bi-telephone"></i> <br>
+                            +2541 10 666 140
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope"></i> <br>
+                            douglasronno@gmail.com
+                        </li>
+                    </ul>
+            
+            </div>
+
+        </section>
+    </main>
+    <footer class="bg-dark text-light">
+        <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+          <div class="pt-3">
+            <a href="https://www.github.com/douglasrono" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/douglas.kiprono" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.twitter.com/itsdaglas" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.facebook.com/douglas.ronno" target="_blank"><i class="bi bi-facebook"></i></a>
+                <hr>
+          </div>
+            <p class="mt-3"> &copy; <span id="thisYear"></span>. All rights reserved by <a href="index.html"><span class="text-warning">DOUGLAS RONO</span> </a></p>
+        </div>
+    </footer>
+
+  <div id="page-loader"></div>
+
+  <a href="#" class="scroll-Up d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      const date = new Date();
+      year = date.getFullYear();
+      document.getElementById("thisYear").innerHTML=year;
+
+    / page loader/   
+  let pageLoader = select('#page-loader');
+  if (page-loader) {
+    window.addEventListener('load', () => {
+      page-loader.remove()
+    });
+  }
+
+    /scroll up/
+  let scrollUp = document.querySelector('.scroll-Up')
+  if (scrollUp) {
+    let togglescrollUp = () => {
+      if (window.scrollY > 100) {
+        scrollUp.classList.add('active')
+      } else {
+        scrollUp.classList.remove('active')
+      }
+    }
+    window.addEventListener('load', togglescrollUp)
+    onscroll(document, togglescrollUp)
+  }
+
+
+
+
+    </script>
+</body>
+</html>

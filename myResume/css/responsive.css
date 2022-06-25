@@ -1,0 +1,151 @@
+@media screen and (max-width:576px) {
+    
+  body{
+      font-size: 12px;
+      font-style: italic;
+
+  }
+  .navbar-brand{
+    font-size: 80%;
+}
+
+.navbar button{
+    font-size: 30%;
+    width: 45px;
+    height: 45px;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.navbar .bi-list{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.navbar ul li{
+
+    margin: 0.2em;
+    text-align: center;
+    transition: all 1.2s ease-in-out;
+    
+}
+.navbar ul li:hover{
+   
+    transform: rotateX(45deg);
+    
+}
+.scroll-up .bi{
+    font-size: 2rem;
+    color: brown;
+
+}
+.navbar-nav .bi{
+    font-size: 1.2rem;
+    
+
+}
+.bi{
+    font-size: 2rem;
+}
+.skills li{
+    text-align: center;
+    list-style-type: none;
+    margin-left: 0px !important;
+    
+}
+.skills h4{
+     font-size: 20% ;
+
+}
+}
+
+
+
+@media screen and (max-width:992px) {
+      .navbar-brand{
+        font-size: 200%;
+    }
+
+    .navbar:hover{
+        transform: translateX(-20px);
+    }
+
+    #showcase{
+     height: 100vh;
+     background-image: url('/img/bg2.png');
+     background-size: cover;
+     background-position: center,center;
+     position: relative;
+    
+}
+
+.showcase .main-content{
+    text-align: center;
+    padding: 4rem auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    font-weight: 900;
+    font-style: oblique;
+   
+}
+    .skills .row{
+    display: flex;
+   justify-content: space-evenly;
+}
+#skills .box {
+    margin: 3px;
+  padding: 5px 3px;
+  box-shadow: 0px 2px 15px rgba(192, 173, 173, 0.1);
+  transition: all ease-in-out 3s;
+  background: #1a1814;
+}
+
+#skills .box h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0;
+  margin: 10px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+#skills .box li {
+  color: #78fa07;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+#skills .box:hover {
+  background: #1ac6c9;
+  padding: 3px 3px 7px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+#skills .box:hover li {
+  color: rgb(217, 63, 16);
+}
+
+
+}
+
+@media screen and (max-width:992px) {
+    #showcase{
+        background: url("../img/bg2.png");
+        background-size: cover;
+        background-position: center center;
+     
+    }
+    .main-img{
+        display: none;
+    }
+    #showcase .main-content{
+        opacity: 1 !important;
+        color: rgb(50, 238, 12);
+        font-weight: 900;
+        font-size: 800%;
+    }
+    .nav-item{
+        background: #78fa07;
+    }
+
+}
